@@ -18,17 +18,17 @@ body, html {
     position: relative;
     /* Add a white text color to all elements inside the .bgimg container */
     color: white;
-    	text-shadow: 2px 2px black;
+    	text-shadow: 1px 1px black;
     /* Add a font */
-    font-family: 'Niramit', sans-serif;
+    font-family: 'Lato', sans-serif;
     /* Set the font-size to 25 pixels */
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* Position text in the top-left corner */
 .topleft {
     position: absolute;
-    top: 0;
+    top: 16px;
     left: 16px;
 }
 
@@ -47,11 +47,38 @@ body, html {
     transform: translate(-50%, -50%);
     text-align: center;
     width: 75%;
-    filter: none;
 }
 
 .icons {
-	
+    display:inline-block;
+    text-align: left;
+}
+
+ul {
+    margin: 0px 0px 30px 0px; 
+}
+
+li {
+    list-style: none;   
+    font-size: 65%;
+    margin: 5px;
+    text-indent: -25px;
+}
+
+img {
+    vertical-align: top;
+}
+
+a {
+    color: white;
+}
+
+input {
+    text-indent: 5px;
+}
+
+input::placeholder {
+    font-family: 'Lato', sans-serif;
 }
 
 /* Style the <hr> element */
